@@ -1,0 +1,158 @@
+body {
+  font-family: "Poppins", Sans-serif;
+  background-color: rgb(158, 147, 147);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-weight: 400;
+}
+p {
+  font-size: 1.2em;
+}
+.background {
+  margin: -20px;
+  padding: 0;
+  z-index: 100;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(back3.png);
+  height: 100vh;
+}
+.image {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+.sunodos {
+  padding-top: 35%;
+  color: #c3fffb;
+  font-family: "Poppins", Sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+}
+
+.under_sunodos {
+  color: #fff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.2em;
+  letter-spacing: 0.1px;
+}
+
+.contactus {
+  border: 2px solid white;
+  background-color: rgb(189, 187, 187);
+  font-weight: bolder;
+  padding: 10px;
+  width: 150px;
+  position: absolute;
+  top: 660px;
+  left: 405px;
+}
+.logo {
+  position: fixed;
+  z-index: 10;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 100%;
+}
+.white {
+  color: white;
+  text-align: center;
+  height: 100%;
+}
+.black {
+  color: black;
+  text-align: left;
+  font-weight: 400;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 20%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 30%;
+}
+
+.column.third {
+  width: 33%;
+}
+
+.column.third2 {
+  width: 42%;
+}
+
+.row {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.rowjojo {
+  margin-top: 0;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-image: url(https://c.tenor.com/zxl-KUpIqUMAAAAC/potato-chip.gif);
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.background:after {
+  content: "";
+  display: table;
+  clear: both;
+  height: 100%;
+}
+
+.rowjojo:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column.side,
+  .column.middle {
+    width: 100%;
+  }
+}
